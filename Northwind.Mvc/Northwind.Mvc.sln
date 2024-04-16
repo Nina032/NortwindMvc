@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Mvc", "Northwind.Mvc.csproj", "{CBFC0D98-3DB9-4864-8565-CA50E5674F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.SqlServer", "..\Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{A9682944-FD99-483E-B04F-194880860819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBFC0D98-3DB9-4864-8565-CA50E5674F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFC0D98-3DB9-4864-8565-CA50E5674F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFC0D98-3DB9-4864-8565-CA50E5674F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFC0D98-3DB9-4864-8565-CA50E5674F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9682944-FD99-483E-B04F-194880860819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9682944-FD99-483E-B04F-194880860819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9682944-FD99-483E-B04F-194880860819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9682944-FD99-483E-B04F-194880860819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D20F4A2-A1EB-4629-8B5B-93970D6CA90D}
+	EndGlobalSection
+EndGlobal
