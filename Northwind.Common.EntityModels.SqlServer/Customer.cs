@@ -13,10 +13,13 @@ namespace Northwind.Shared;
 public partial class Customer
 {
     [Key]
+    [Required]
     [Column("CustomerID")]
     [StringLength(5)]
+    [RegularExpression("[A-Z]{5}")]
     public string CustomerId { get; set; } = null!;
 
+    [Required]
     [StringLength(40)]
     public string CompanyName { get; set; } = null!;
 
